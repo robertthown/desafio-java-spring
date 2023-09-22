@@ -1,0 +1,94 @@
+.secao-principal{
+	display: flex;
+}
+
+.caixa-setores-topo{
+	background-color: #C4C4C4;
+ 	width: 127px;
+ 	height: 127px;
+ 	display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.caixa-setores-topo p{
+	margin-top: 10px;
+	color: black;
+	font-size: 18px;
+	font-family: Roboto;
+	font-weight: 500;
+	word-wrap: break-word	
+}
+
+.div-acordion{
+	margin-top: 20px;
+	background-color: #C4C4C4;
+	padding: 40px 28px;
+	width: 400px;
+	height: auto;
+	margin-right: 50px;
+}
+
+.label-principal {
+	color: black;
+	font-size: 36px;
+	font-family: Roboto;
+	font-weight: 400;
+	word-wrap: break-word
+}
+
+summary {
+  border: 4px solid transparent;
+  outline: none;
+  padding: 1rem;
+  display: block;
+  background: #A09F9F;
+  color: white;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+  margin-top:20px;
+}
+
+.content .cargos{
+  padding: 10px 40px 20px 40px;
+  background-color: #A09F9F;
+  border-top: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+
+}
+
+.content .opcoes{
+  padding: 0px 40px 30px 40px;
+  background-color: #A09F9F;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+    margin-bottom: 20px;
+}
+
+.cargos button{
+	border: none;
+	background-color: #C4C4C4;
+	padding: 12px 10px;
+	text-transform: uppercase;
+	
+}
+
+.opcoes button{
+	border: none;
+	background-color: #C4C4C4;
+	padding: 12px 10px;
+	text-transform: uppercase;
+	}
+
+.col-adicionar-setor{
+	margin-top: 20px;
+	padding: 40px;
+	width: max-content;
+	background-color: #C4C4C4;
+}
